@@ -1,0 +1,13 @@
+﻿@model AccentDesignTest.Models.Home.IndexNoParamViewModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="alert alert-danger">@Model.Message</div>
+    <div>You can use the following form</div>
+    <form action="" method="get">
+        <input type="text" name="customerCode" value="@Model.Default" />
+        <input type="submit" value="Show"/>
+    </form>
+</div>
