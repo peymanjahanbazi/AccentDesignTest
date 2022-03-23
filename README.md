@@ -1,14 +1,14 @@
 # AccentDesignTest
 
-## The Project is in "src" folder
+### The Project is in "src" folder
 
 # Technical Questions
 
-## How long did you spend on the coding test? What would you add to your solution if you had more time?
+### How long did you spend on the coding test? What would you add to your solution if you had more time?
 
 two hours, I wrote more tests and I work on the UI
 
-## What is the most useful feature that was recently added to .NET? Please include a snippet of code that shows how you've used it.
+### What is the most useful feature that was recently added to .NET? Please include a snippet of code that shows how you've used it.
 
 - using statement (used in the project)
 
@@ -31,7 +31,7 @@ p.totalFeeChargedCalculated = p.erectedBoardType.title switch
 };
 ```
 
-## How would you track down a performance issue in production? Have you ever had to do this?
+### How would you track down a performance issue in production? Have you ever had to do this?
 
 - based on the problem I use different techniques.
 
