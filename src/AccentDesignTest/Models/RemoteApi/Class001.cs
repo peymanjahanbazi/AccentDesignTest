@@ -1,6 +1,5 @@
-﻿namespace AccentDesignTest.Models.RemoteApi
+﻿namespace AccentDesignTest.Models.RemoteApi;
+
+public class Class001
 {
-    public class Class001
-    {
-    }
 }

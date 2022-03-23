@@ -11,11 +11,30 @@ two hours, I wrote more tests and I work on the UI
 ## What is the most useful feature that was recently added to .NET? Please include a snippet of code that shows how you've used it.
 
 - using statement (used in the project)
+
+```cs
+namespace AccentDesignTest.Models.RemoteApi;
+
+public class Class001
+{
+}
+```
+
 - switch (used in the Repository)
+
+```cs
+p.totalFeeChargedCalculated = p.erectedBoardType.title switch
+{
+    "sold" => p.totalFeeCharged * 1.075f,
+    "sale agreed" => p.totalFeeCharged * 1.04f,
+    _ => p.totalFeeCharged,
+};
+```
 
 ## How would you track down a performance issue in production? Have you ever had to do this?
 
-- based on the problem I use different techniques. 
+- based on the problem I use different techniques.
+
   - Writing test codes
   - using online logging (Cloud watch)
   - using tools (Apache Jmeter)
