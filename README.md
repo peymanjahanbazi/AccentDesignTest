@@ -6,7 +6,10 @@
 
 ### How long did you spend on the coding test? What would you add to your solution if you had more time?
 
-two hours, I wrote more tests and I work on the UI
+two hours,
+
+- I wrote more tests
+- I used some techniques to improve the performance(caching the API call results)
 
 ### What is the most useful feature that was recently added to .NET? Please include a snippet of code that shows how you've used it.
 
